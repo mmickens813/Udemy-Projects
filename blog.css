@@ -1,0 +1,35 @@
+body{
+	border: 20px solid #bdc3c7;
+	padding: 20px;
+	max-width: 700px;
+	width: 80%;
+	margin: 20px auto;
+	font-family: source sans pro;
+}
+
+/* Note that the max width and width creates the scaling effecting when resizing the page. Also the auto margin files it in the middle while the border and the padding styles all the elements into the mniddle of the gray border */
+
+
+.quote {
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+}
+
+/*Code above creates the little grey bar on the first paragraph and its syling... first with turning the left border on then adding a padding between element and he border itself */
+
+.date {
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+}
+
+/*rem differs from em as em is more relative and rem is taking from the root element in which it doesn't have to depend on the parent element for relativity*/
+
+h2 {
+	color: #2c3e50;
+	font-size: 2.0rem;
+}
+
+.post{
+	margin-bottom: 20px;
+}
